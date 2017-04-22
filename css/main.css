@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+}
+.green {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+.yellow {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.red {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.blue{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+@media (max-width:600px){
+  .yellow{
+    display: none;
+  }
+  .red{
+    display: none;
+  }
+}
+@media (min-width:1000px){
+  .box{
+    width: 100%;
+  }
+}
